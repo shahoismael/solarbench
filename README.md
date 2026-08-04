@@ -2,6 +2,17 @@
 
 A harmonized, cross-climate benchmark for photovoltaic power forecasting — four Köppen zones, one protocol, open baselines.
 
+## Status
+
+Research in progress. Code, harmonized data, protocol files, and baseline results will be released here on publication, alongside a Zenodo DOI and a citation entry.
+
+## Data
+
+Raw datasets are not redistributed. Each must be obtained from its original public source; the harmonization scripts document the expected folder and file structure.
+
+## License
+
+Code is released under Apache-2.0. Derived data and protocol files will be released under CC-BY-4.0, subject to each source dataset's own terms.
 ## Overview
 
 SolarBench harmonizes four public PV datasets spanning four Köppen climate zones into a single schema and evaluation protocol, so forecasting models can be compared across climates rather than on a single convenience site.
