@@ -124,7 +124,8 @@ protocol/     frozen split definitions, capacity constants, rare-event counts
 results/      per-site results for every model, seed and experiment
 models/       baseline model definitions
 evaluation/   metrics, statistical tests, figure generation
-data/         empty — place your own copies of the source archives here
+data/         empty — place your own copies of the source archives here,
+              or set SOLARBENCH_DATA to wherever they already are
 *.m           MATLAB pipeline, in run order (see ENVIRONMENT.md)
 ```
 
@@ -132,8 +133,10 @@ data/         empty — place your own copies of the source archives here
 
 1. Obtain the four archives from their original providers (see
    [LICENSE-DATA](LICENSE-DATA)).
-2. Place them under `data/` and run `run_harmonization.m`. A correct
-   harmonization gives 23,312,924 rows across 369 sites.
+2. Place them under `data/`, or anywhere you like and point
+   `SOLARBENCH_DATA` at it — no script hardcodes a path. Then run
+   `run_harmonization.m`. A correct harmonization gives 23,312,924 rows
+   across 369 sites.
 3. Pin the evaluation with the files in `protocol/` — do not recompute the
    splits or the capacity constants.
 4. Run the pipeline in the order given in [ENVIRONMENT.md](ENVIRONMENT.md).

@@ -7,7 +7,7 @@
 
 clear; clc;
 
-baseDir = 'C:\Users\Shaho\Desktop\claude_projects\R9\pv_forecasting_enchmark\dataset';
+baseDir = solarbench_config();   % resolves SOLARBENCH_DATA, else <repo>/data
 resultsDir = fullfile(baseDir, 'results');
 outDir = fullfile(baseDir, 'leaderboard');
 if ~exist(outDir, 'dir'); mkdir(outDir); end

@@ -17,9 +17,43 @@ Every statistical test in the paper — Wilcoxon signed-rank, Holm–Bonferroni
 correction, matched-pairs rank-biserial effect size — runs in Python with
 SciPy, so a MATLAB licence without that toolbox reproduces the full pipeline.
 
+### Where the data lives
+
+No script hardcodes a path. Every one calls `solarbench_config()`, which
+resolves the data directory in this order:
+
+1. the `SOLARBENCH_DATA` environment variable, if set
+2. otherwise `data/` inside this repository
+
+The archives are roughly 20 GB, so they normally sit outside the repository:
+
+```matlab
+setenv('SOLARBENCH_DATA', 'D:\pv_data')   % from inside MATLAB
+```
+
+```powershell
+$env:SOLARBENCH_DATA = "D:\pv_data"       # PowerShell
+export SOLARBENCH_DATA=/mnt/pv_data       # Linux / macOS
+```
+
+Expected layout under that directory:
+
+```
+1_DKASC_AliceSprings_AU/
+2_HKUST_Rooftop_HK/
+3_Ausgrid_Sydney_AU/
+4_PVDAQ_NREL_US/
+```
+
+`solarbench_config()` fails with the expected layout printed if none of the
+four are found, rather than failing later with an opaque file-not-found.
+Generated output (`harmonized/`, `protocol/`, `results/`, `leaderboard/`) is
+created under the same directory as the pipeline runs.
+
 MATLAB scripts, in run order:
 
 ```
+solarbench_config.m          resolves the data directory (called by all)
 run_harmonization.m          import and harmonize the four archives
 phase2_protocol_design.m     splits, capacity constants, rare-event labels
 phase3_step1_persistence.m   naive persistence reference
