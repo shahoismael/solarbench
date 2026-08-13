@@ -1,0 +1,86 @@
+SolarBench derived data — licence and attribution
+==================================================
+
+This file covers the DERIVED data products in this repository. Source code is
+covered separately by LICENSE (Apache-2.0).
+
+
+1. What this licence covers
+---------------------------
+
+Creative Commons Attribution 4.0 International (CC BY 4.0) applies to the
+derived protocol and result files produced by this project:
+
+    protocol/splits_*.csv          site-to-split assignment and date boundaries
+    protocol/capacity_*.csv        per-site capacity normalization constants
+    protocol/rare_events_*.csv     rare-event label counts per site and split
+    protocol/protocol_summary.csv  per-dataset summary
+    results/*.csv                  baseline results for every model and seed
+
+Full licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+Attribution requirement. If you use these files, cite the paper (see
+CITATION.cff) and state that the protocol definitions come from SolarBench.
+
+
+2. What this licence does NOT cover
+-----------------------------------
+
+SolarBench does not redistribute any source dataset. No raw measurement, and
+no harmonized copy of a raw measurement, is included in this repository. The
+files above contain only derived quantities: split labels, aggregate counts,
+percentile constants and model error metrics.
+
+The CC BY 4.0 grant is made only to the extent this project holds rights in
+these derived products. It does not, and cannot, grant rights in the
+underlying source data. Each source dataset remains under the terms of its
+original provider, and you must obtain each one yourself.
+
+
+3. Per-source terms and attribution
+-----------------------------------
+
+DKASC — Desert Knowledge Australia Solar Centre
+    Alice Springs, Northern Territory, Australia.
+    Source: https://dkasolarcentre.com.au/download
+    Made publicly available by DKASC. Attribute the Desert Knowledge Australia
+    Solar Centre when using data derived from this archive.
+
+HKUST — Hong Kong University of Science and Technology rooftop PV dataset
+    Published in Scientific Data. Distributed via Dryad.
+    Obtain from the Dryad record cited in the paper's reference list.
+    Dryad content is released under CC0 1.0 unless the record states
+    otherwise; check the record you download.
+
+Ausgrid — Solar Home Electricity Data
+    300 gross-metered residential customers, New South Wales, Australia.
+    Source: https://www.ausgrid.com.au/Industry/Our-Research/Data-to-share
+    Released by Ausgrid in de-identified form under the terms stated on that
+    page. Re-identification of customers is prohibited. No re-identification
+    was attempted in this work, and none is possible from the files in this
+    repository, which retain only anonymous site identifiers.
+
+PVDAQ — NREL Photovoltaic Data Acquisition
+    Retrieved through the Open Energy Data Initiative (OEDI) data lake.
+    Source: https://openei.org/wiki/PVDAQ
+    U.S. Department of Energy / National Renewable Energy Laboratory terms
+    apply. Attribute NREL and the OEDI.
+
+Where a source's terms conflict with CC BY 4.0 for any derived quantity, the
+source's terms prevail.
+
+
+4. Large derived files
+----------------------
+
+The four harmonized, labelled corpora (23,312,924 rows, ~1.6 GB) are too large
+for this repository and are hosted separately. They are derived data and carry
+the same terms as this file, including the per-source restrictions in section 3.
+See README.md for the location.
+
+
+5. No warranty
+--------------
+
+These files are provided as is, without warranty of any kind. The authors
+accept no liability for any use of them.

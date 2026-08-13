@@ -1,0 +1,4 @@
+site_id,split,n_rare,n_rows,rare_rate_pct
+ID_DKASC_1,test,5879,63527,9.2543
+ID_DKASC_1,train,13892,296457,4.686
+ID_DKASC_1,val,3195,63526,5.0294

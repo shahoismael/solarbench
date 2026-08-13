@@ -1,0 +1,177 @@
+site_id,split,n_rare,n_rows,rare_rate_pct
+ID_CYT (Station 1),test,0,14775,0.0
+ID_CYT (Station 1),train,0,63643,0.0
+ID_CYT (Station 1),val,0,14791,0.0
+ID_CYT (Station 2),test,0,14775,0.0
+ID_CYT (Station 2),train,0,61919,0.0
+ID_CYT (Station 2),val,0,14791,0.0
+ID_Indoor Sports Centre,test,885,14778,5.9886
+ID_Indoor Sports Centre,train,2474,43391,5.7016
+ID_Indoor Sports Centre,val,1019,14791,6.8893
+ID_LSK North,test,841,14778,5.6909
+ID_LSK North,train,3597,61055,5.8914
+ID_LSK North,val,1015,14791,6.8623
+ID_LSK South,test,510,14778,3.4511
+ID_LSK South,train,3709,61055,6.0749
+ID_LSK South,val,1026,14791,6.9367
+ID_Library,test,825,14778,5.5826
+ID_Library,train,1479,26015,5.6852
+ID_Library,val,1091,14791,7.3761
+ID_S H Ho Sports Hall,test,632,14778,4.2766
+ID_S H Ho Sports Hall,train,2261,46367,4.8763
+ID_S H Ho Sports Hall,val,959,14791,6.4837
+ID_SQ Apartment1-12,test,863,14778,5.8398
+ID_SQ Apartment1-12,train,3217,55199,5.828
+ID_SQ Apartment1-12,val,1001,14791,6.7676
+ID_SQ Apartment13-24,test,885,14778,5.9886
+ID_SQ Apartment13-24,train,3225,55199,5.8425
+ID_SQ Apartment13-24,val,1016,14791,6.869
+ID_SQ Apartment25-36,test,872,14778,5.9007
+ID_SQ Apartment25-36,train,3218,55199,5.8298
+ID_SQ Apartment25-36,val,1003,14791,6.7812
+ID_SQ Apartment37-48,test,875,14778,5.921
+ID_SQ Apartment37-48,train,3150,55199,5.7066
+ID_SQ Apartment37-48,val,985,14791,6.6595
+ID_SQ Apartment37-48 Flexible PV,test,0,14771,0.0
+ID_SQ Apartment37-48 Flexible PV,train,0,53059,0.0
+ID_SQ Apartment37-48 Flexible PV,val,0,14791,0.0
+ID_SQ Block P,test,813,14778,5.5014
+ID_SQ Block P,val,168,2886,5.8212
+ID_SQ Block Q,test,0,14775,0.0
+ID_SQ Block Q,train,0,6715,0.0
+ID_SQ Block Q,val,0,14791,0.0
+ID_SQ Block Q (Phrase 2),test,0,14723,0.0
+ID_SQ Block Q (Phrase 2),train,0,6691,0.0
+ID_SQ Block Q (Phrase 2),val,0,14791,0.0
+ID_SQ Block R,test,873,14778,5.9074
+ID_SQ Block R,train,2578,46367,5.56
+ID_SQ Block R,val,1028,14791,6.9502
+ID_SQ Block S,test,860,14778,5.8195
+ID_SQ Block S,train,2513,46367,5.4198
+ID_SQ Block S,val,1004,14791,6.7879
+ID_SQ1,test,851,14778,5.7586
+ID_SQ1,train,3529,61055,5.78
+ID_SQ1,val,933,14791,6.3079
+ID_SQ10,test,0,14723,0.0
+ID_SQ10,train,0,58747,0.0
+ID_SQ10,val,0,14791,0.0
+ID_SQ11,test,0,14727,0.0
+ID_SQ11,train,0,58747,0.0
+ID_SQ11,val,0,14791,0.0
+ID_SQ12,test,0,14727,0.0
+ID_SQ12,train,0,67679,0.0
+ID_SQ12,val,0,14791,0.0
+ID_SQ13,test,0,14723,0.0
+ID_SQ13,train,0,67679,0.0
+ID_SQ13,val,0,14791,0.0
+ID_SQ14,test,0,14727,0.0
+ID_SQ14,train,0,65851,0.0
+ID_SQ14,val,0,14791,0.0
+ID_SQ15,test,0,14727,0.0
+ID_SQ15,train,0,67679,0.0
+ID_SQ15,val,0,14791,0.0
+ID_SQ16,test,0,14723,0.0
+ID_SQ16,train,0,67679,0.0
+ID_SQ16,val,0,14791,0.0
+ID_SQ17,test,0,14723,0.0
+ID_SQ17,train,0,67679,0.0
+ID_SQ17,val,0,14791,0.0
+ID_SQ18,test,0,14723,0.0
+ID_SQ18,train,0,23899,0.0
+ID_SQ18,val,0,14791,0.0
+ID_SQ19,test,0,14723,0.0
+ID_SQ19,train,0,69023,0.0
+ID_SQ19,val,0,14791,0.0
+ID_SQ2,test,834,14778,5.6435
+ID_SQ2,train,3471,61055,5.685
+ID_SQ2,val,957,14791,6.4702
+ID_SQ3,test,872,14778,5.9007
+ID_SQ3,train,3669,61055,6.0093
+ID_SQ3,val,999,14791,6.7541
+ID_SQ4,test,860,14778,5.8195
+ID_SQ4,train,3681,61055,6.029
+ID_SQ4,val,984,14791,6.6527
+ID_SQ567,test,900,14778,6.0901
+ID_SQ567,train,3531,58175,6.0696
+ID_SQ567,val,991,14791,6.7
+ID_SQ567 Flexible PV,test,0,14723,0.0
+ID_SQ567 Flexible PV,train,0,50371,0.0
+ID_SQ567 Flexible PV,val,0,14791,0.0
+ID_SQ8,test,0,14727,0.0
+ID_SQ8,train,0,65827,0.0
+ID_SQ8,val,0,14791,0.0
+ID_SQ9,test,0,14723,0.0
+ID_SQ9,train,0,65851,0.0
+ID_SQ9,val,0,14791,0.0
+ID_Shaw Auditorium,test,828,14688,5.6373
+ID_Tower A,test,0,14723,0.0
+ID_Tower A,train,0,32539,0.0
+ID_Tower A,val,0,14791,0.0
+ID_UG Hall2 2F,test,813,14778,5.5014
+ID_UG Hall2 2F,train,3258,58175,5.6003
+ID_UG Hall2 2F,val,1020,14791,6.8961
+ID_UG Hall2 RF,test,980,14778,6.6315
+ID_UG Hall2 RF,train,3661,58175,6.2931
+ID_UG Hall2 RF,val,1082,14791,7.3153
+ID_UG Hall3,test,888,14778,6.0089
+ID_UG Hall3,train,3443,58175,5.9183
+ID_UG Hall3,val,976,14791,6.5986
+ID_UG Hall4,test,853,14778,5.7721
+ID_UG Hall4,train,3398,58175,5.841
+ID_UG Hall4,val,971,14791,6.5648
+ID_UG Hall4 Flexible PV,test,0,14775,0.0
+ID_UG Hall4 Flexible PV,train,0,50395,0.0
+ID_UG Hall4 Flexible PV,val,0,14791,0.0
+ID_UG Hall6,test,851,14778,5.7586
+ID_UG Hall6,train,3667,61055,6.0061
+ID_UG Hall6,val,1003,14791,6.7812
+ID_UG Hall7,test,808,14778,5.4676
+ID_UG Hall7,train,3591,61055,5.8816
+ID_UG Hall7,val,955,14791,6.4566
+ID_UG Hall7 Flexible PV,test,0,14723,0.0
+ID_UG Hall7 Flexible PV,train,0,50371,0.0
+ID_UG Hall7 Flexible PV,val,0,14791,0.0
+ID_UG Hall8,test,898,14778,6.0766
+ID_UG Hall8,val,974,14502,6.7163
+ID_UG Hall9,test,878,14778,5.9413
+ID_UG Hall9,train,65,1535,4.2345
+ID_UG Hall9,val,1005,14791,6.7947
+ID_Wong Check She Research Centre,test,896,14778,6.0631
+ID_Wong Check She Research Centre,train,2570,43487,5.9098
+ID_Wong Check She Research Centre,val,1048,14791,7.0854
+ID_Zone A1,test,812,14778,5.4947
+ID_Zone A1,train,3415,58175,5.8702
+ID_Zone A1,val,963,14791,6.5107
+ID_Zone A2,test,895,14778,6.0563
+ID_Zone A2,train,3183,58175,5.4714
+ID_Zone A2,val,1020,14791,6.8961
+ID_Zone A4,test,850,14778,5.7518
+ID_Zone A4,train,3467,58175,5.9596
+ID_Zone A4,val,1032,14791,6.9772
+ID_Zone A5,test,844,14778,5.7112
+ID_Zone A5,train,2471,46367,5.3292
+ID_Zone A5,val,981,14791,6.6324
+ID_Zone A6,test,837,14778,5.6638
+ID_Zone A6,train,2627,46367,5.6657
+ID_Zone A6,val,988,14791,6.6797
+ID_Zone A7,test,861,14778,5.8262
+ID_Zone A7,train,2501,46367,5.3939
+ID_Zone A7,val,781,14791,5.2802
+ID_Zone D,test,841,14778,5.6909
+ID_Zone D,train,2124,38687,5.4902
+ID_Zone D,val,1077,14791,7.2815
+ID_Zone J1,test,902,14778,6.1037
+ID_Zone J1,train,2113,34847,6.0636
+ID_Zone J1,val,826,14791,5.5845
+ID_Zone J2,test,848,14778,5.7383
+ID_Zone J2,train,2229,45215,4.9298
+ID_Zone J2,val,1017,14791,6.8758
+ID_Zone L1 (Station 1),test,0,14791,0.0
+ID_Zone L1 (Station 1),train,0,65851,0.0
+ID_Zone L1 (Station 1),val,0,14791,0.0
+ID_Zone L1(Station 2),test,0,14775,0.0
+ID_Zone L1(Station 2),train,0,65851,0.0
+ID_Zone L1(Station 2),val,0,14791,0.0
+ID_Zone L2,test,869,14778,5.8804
+ID_Zone L2,train,1103,26015,4.2399
+ID_Zone L2,val,975,14791,6.5918

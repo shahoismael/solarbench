@@ -1,0 +1,23 @@
+# SolarBench — Python environment
+#
+# Python 3.11. Used for the gradient-boosting baseline, all statistical
+# testing, the confound controls, aggregation and every figure.
+#
+# The neural baselines (MLP, LSTM, Transformer), the transfer matrix, the
+# horizon sweep and the rare-event sensitivity sweep run in MATLAB R2025b.
+# See ENVIRONMENT.md.
+#
+#   pip install -r requirements.txt
+#
+# These are lower bounds, not the exact pins used for the published run. To
+# reproduce that run byte-for-byte, use environment-lock.txt if present, or
+# regenerate it on the machine that produced the results:
+#
+#   pip freeze > environment-lock.txt
+
+numpy>=1.26
+pandas>=2.2
+scipy>=1.13
+scikit-learn>=1.5
+matplotlib>=3.9
+tabulate>=0.9

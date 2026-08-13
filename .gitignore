@@ -1,0 +1,23 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*~
+
+# Raw and harmonized data are never redistributed
+data/*
+!data/.gitkeep
+*.mat
+
+# Large harmonized protocol files live on Hugging Face, not here
+protocol/*_labeled.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# MATLAB
+slprj/
+*.asv
+*.autosave
