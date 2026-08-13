@@ -1,0 +1,35 @@
+{
+  "upload_type": "software",
+  "title": "SolarBench: Quantifying the Cross-Climate Generalization Gap in Deep Learning Photovoltaic Power Forecasting Under Rare Events",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "creators": [
+    {
+      "name": "Ismael Hassen, Shaho",
+      "orcid": "0000-0002-6403-7748"
+    }
+  ],
+  "description": "<p>A harmonized cross-climate benchmark for photovoltaic power forecasting. Four public archives spanning five K&ouml;ppen climate zones (BWh, Cwa, Cfa, BSk, Dfb) and 345 scored sites are reduced to one schema, one chronological split, one common feature set and one evaluation protocol, so that models can be compared across climates rather than on a single convenience site.</p><p>Every deep learning model tested is useful in the climate it was trained on and worse than useless outside it. Pooled across targets, forecast skill against naive persistence moves from +0.055 to -0.106 (MLP), +0.066 to -0.143 (LSTM) and +0.063 to -0.180 (Transformer). Negative skill means the model is beaten by assuming the next value equals the current one.</p><p>This release contains the frozen evaluation protocol (split definitions, per-site capacity normalization constants and rare-event label counts), five baselines under matched budgets, the cross-climate transfer matrix, leave-one-climate-out evaluation, a horizon sweep at 15/30/60/180 minutes, a 405-setting rare-event threshold sensitivity sweep, a weather ablation, five confound controls, and all per-site results for every model and seed.</p><p>No source data is redistributed. Each of the four archives (DKASC, HKUST, Ausgrid, PVDAQ) remains under the terms of its original provider and must be obtained from source. See LICENSE-DATA for per-source terms and attribution.</p>",
+  "keywords": [
+    "photovoltaic power forecasting",
+    "cross-climate generalization",
+    "benchmark",
+    "Koppen climate zones",
+    "rare-event forecasting",
+    "inverter clipping",
+    "cloud transients",
+    "forecast skill score",
+    "transfer learning",
+    "reproducibility",
+    "open evaluation protocol"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/shahoismael/solarbench",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

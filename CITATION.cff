@@ -10,7 +10,7 @@ authors:
   - given-names: Shaho
     family-names: Ismael Hassen
     email: shahoismael@live.com
-    orcid: 'https://orcid.org/PLACEHOLDER-ORCID'
+    orcid: 'https://orcid.org/0000-0002-6403-7748'
 repository-code: 'https://github.com/shahoismael/solarbench'
 abstract: >-
   A harmonized cross-climate benchmark for photovoltaic power
@@ -44,7 +44,7 @@ preferred-citation:
     - given-names: Shaho
       family-names: Ismael Hassen
       email: shahoismael@live.com
-      orcid: 'https://orcid.org/PLACEHOLDER-ORCID'
+      orcid: 'https://orcid.org/0000-0002-6403-7748'
   journal: Applied Energy
   year: 2026
   status: submitted
