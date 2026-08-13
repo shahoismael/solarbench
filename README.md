@@ -3,6 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21918702.svg)](https://doi.org/10.5281/zenodo.21918702)
 [![License](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
 [![Data](https://img.shields.io/badge/derived%20data-CC--BY--4.0-blue.svg)](LICENSE-DATA)
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20protocol%20labels-solarbench--protocol-yellow)](https://huggingface.co/datasets/shahoismael/solarbench-protocol)
 
 A harmonized cross-climate benchmark for photovoltaic power forecasting.
 Four public archives, **five Köppen climate zones**, 345 scored sites,
@@ -136,6 +137,13 @@ data/         empty — place your own copies of the source archives here
 3. Pin the evaluation with the files in `protocol/` — do not recompute the
    splits or the capacity constants.
 4. Run the pipeline in the order given in [ENVIRONMENT.md](ENVIRONMENT.md).
+
+For row-exact reproduction, join against the protocol labels on Hugging Face —
+[`shahoismael/solarbench-protocol`](https://huggingface.co/datasets/shahoismael/solarbench-protocol).
+That dataset carries `split` and `is_rare_event` for all 23,312,924 rows keyed
+on `(site_id, timestamp)`, and contains no measurements. The `protocol/` files
+here are enough to rebuild the evaluation; the labels remove any ambiguity
+about which rows were scored.
 
 MATLAB R2025b with the Deep Learning Toolbox, and Python 3.11. The Statistics
 and Machine Learning Toolbox is not required — every statistical test runs in
