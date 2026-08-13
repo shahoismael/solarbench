@@ -1,5 +1,9 @@
 # SolarBench
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21918702.svg)](https://doi.org/10.5281/zenodo.21918702)
+[![License](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
+[![Data](https://img.shields.io/badge/derived%20data-CC--BY--4.0-blue.svg)](LICENSE-DATA)
+
 A harmonized cross-climate benchmark for photovoltaic power forecasting.
 Four public archives, **five Köppen climate zones**, 345 scored sites,
 23,312,924 rows, one evaluation protocol.
@@ -145,11 +149,16 @@ benchmark measures. Rules in [leaderboard.md](leaderboard.md).
 
 ## Citing
 
-See [CITATION.cff](CITATION.cff).
+Cite the paper. If you use the code, protocol files or results directly, cite
+the archive as well. Machine-readable metadata is in
+[CITATION.cff](CITATION.cff).
 
 > Ismael Hassen, S. *SolarBench: Quantifying the Cross-Climate Generalization
 > Gap in Deep Learning Photovoltaic Power Forecasting Under Rare Events.*
 > Manuscript under review, 2026.
+
+> Ismael Hassen, S. *SolarBench* (v1.0.0). Zenodo, 2026.
+> https://doi.org/10.5281/zenodo.21918702
 
 ## Licence
 
